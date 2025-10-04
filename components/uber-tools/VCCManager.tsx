@@ -169,7 +169,7 @@ export default function VCCManager({ data, onSave, loading }: VCCManagerProps) {
               expiryMonth: expiryMonth?.padStart(2, '0') || '01',
               expiryYear: expiryYear || '25',
               cvv: cvv,
-              zip: '07801', // Auto-set for security
+              zip: '10303', // Auto-set for security
               email: '', // Will be manually assigned later
               isUsed: false,
               timestamp: new Date().toISOString()
@@ -188,7 +188,7 @@ export default function VCCManager({ data, onSave, loading }: VCCManagerProps) {
               expiryMonth: expiryMonth,
               expiryYear: expiryYear,
               cvv: cvv,
-              zip: '07801', // Auto-set for security
+              zip: '10303', // Auto-set for security
               email: '', // Will be manually assigned later
               isUsed: false,
               timestamp: new Date().toISOString()
@@ -667,7 +667,7 @@ export default function VCCManager({ data, onSave, loading }: VCCManagerProps) {
           {/* Format Info */}
           <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
             <div className="text-sm text-blue-700 dark:text-blue-300">
-              <strong>New CSV Format:</strong> Supports the full CSV format with all fields. ZIP code is automatically set to 07801 for security. 
+              <strong>New CSV Format:</strong> Supports the full CSV format with all fields. ZIP code is automatically set to 10303 for security. 
               <br />
               <strong>Format:</strong> Category,Provider,Provider Credentials,Card Description,Name on Card,Card Number,Expiration Month,Expiration Year,Card CVV,Card Type,Website,Source
             </div>
