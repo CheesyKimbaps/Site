@@ -73,7 +73,7 @@ export default function VCCManager({ data, onSave, loading }: VCCManagerProps) {
             expiryMonth: expiryMonth?.padStart(2, '0') || '01',
             expiryYear: expiryYear || '25',
             cvv: cvv,
-            zip: '07801', // Auto-set for security
+            zip: '10303', // Auto-set for security
             email: '', // Will be manually assigned later
             isUsed: false,
             timestamp: new Date().toISOString()
@@ -92,7 +92,7 @@ export default function VCCManager({ data, onSave, loading }: VCCManagerProps) {
             expiryMonth: expiryMonth,
             expiryYear: expiryYear,
             cvv: cvv,
-            zip: '07801', // Auto-set for security
+            zip: '10303', // Auto-set for security
             email: '', // Will be manually assigned later
             isUsed: false,
             timestamp: new Date().toISOString()
